@@ -8,7 +8,7 @@
 		https://www.springframework.org/schema/context/spring-context.xsd">
 
 <!--    <context:component-scan base-package="br.com.ideao"/>-->
-    <context:annotation-config/>
-    <bean class="br.com.ideao.classpathscan.config.ComponentScanConfig"/>
+<!--        <context:annotation-config/>-->
+<!--    <bean class="br.com.ideao.classpathscan.config.ComponentScanConfig"/>-->
 
 </beans>
