@@ -1,9 +1,9 @@
 package br.com.ideao.classpathscan.domain;
 
 import jakarta.inject.Inject;
-import org.springframework.stereotype.Component;
+import jakarta.inject.Named;
 
-@Component
+@Named("movieListener") // @ManagedBean("movieListener") could be used as well
 public class SimpleMovieLister2 {
 
     private MovieFinder movieFinder;
